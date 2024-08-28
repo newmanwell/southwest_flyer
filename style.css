@@ -1,0 +1,91 @@
+body {
+    width: 600px;
+    height: auto;
+    border: solid 3px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: navy;
+    border-bottom: 15px solid gray;
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.random {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.cr {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.heart {
+    color: red;
+}
+
+.titleinfo h2 {
+    line-height: 0px;
+    padding-left: 25px;
+    padding-top: 15px;
+    color: white;
+    font-size: 50px;
+}
+
+.titleinfo h4 {
+    line-height: 0px;
+    padding-left: 25px;
+}
+
+header h1 {
+    color: white;
+    font-size: xx-large;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.english {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+
+.spanish {
+    padding-left: 10px;
+}
+
+.saf {
+    color: navy;
+    line-height: 0px;
+    padding-left: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    content: "\27bd \0020";
+}
