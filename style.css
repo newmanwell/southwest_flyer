@@ -31,8 +31,9 @@ header {
 
 .cr {
     font-size: 12px;
-    margin-bottom: 3px;
+    float: inline-end;
 }
+
 .heart {
     color: red;
 }
